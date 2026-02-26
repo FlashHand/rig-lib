@@ -1,5 +1,5 @@
 {
-  "name": "rig-foundation",
+  "name": "rig-lib",
   "version": "1.0.5",
   "description": "A foundation utility library",
   "main": "./dist/index.js",
@@ -27,11 +27,11 @@
     "publish:npm": "npm publish --registry=https://registry.npmjs.org/ --access public"
   },
   "dependencies": {
-    "@rig-foundation/semaphore": "*"
+    "@rig-lib/semaphore": "*"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/FlashHand/rig-foundation.git"
+    "url": "git+ssh://git@github.com/FlashHand/rig-lib.git"
   },
   "author": "WangBo <ralwayne@163.com>",
   "license": "MIT",

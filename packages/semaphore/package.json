@@ -1,5 +1,5 @@
 {
-  "name": "@rig-foundation/semaphore",
+  "name": "@rig-lib/semaphore",
   "version": "1.0.1",
   "description": "Semaphore for concurrency control",
   "main": "./dist/index.js",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/FlashHand/rig-foundation.git"
+    "url": "git+ssh://git@github.com/FlashHand/rig-lib.git"
   },
   "author": "WangBo <ralwayne@163.com>",
   "license": "MIT",

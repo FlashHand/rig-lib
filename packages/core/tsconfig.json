@@ -16,7 +16,7 @@
     "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
-      "@rig-foundation/semaphore": ["../semaphore/src/index.ts"]
+      "@rig-lib/semaphore": ["../semaphore/src/index.ts"]
     }
   },
   "include": ["src"],

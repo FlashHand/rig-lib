@@ -1,1 +1,1 @@
-export { Semaphore } from '@rig-foundation/semaphore';
+export { Semaphore } from '@rig-lib/semaphore';

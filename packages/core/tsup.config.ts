@@ -9,5 +9,5 @@ export default defineConfig({
   clean: true,
   outDir: 'dist',
   treeshake: true,
-  external: ['@rig-foundation/semaphore'],
+  external: ['@rig-lib/semaphore'],
 });

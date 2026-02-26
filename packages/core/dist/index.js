@@ -1,6 +1,6 @@
 'use strict';
 
-var semaphore = require('@rig-foundation/semaphore');
+var semaphore = require('@rig-lib/semaphore');
 
 
 
