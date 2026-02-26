@@ -1,6 +1,6 @@
 'use strict';
 
-// src/modules/semaphore/semaphore.helper.ts
+// src/semaphore.helper.ts
 var Semaphore = class {
   constructor(capacity = 1) {
     this.queue = [];

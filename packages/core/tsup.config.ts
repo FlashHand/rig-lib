@@ -1,12 +1,13 @@
 import { defineConfig } from 'tsup';
 
 export default defineConfig({
-  entry: ['src/index.ts'],
+  entry: { index: 'src/index.ts' },
   format: ['cjs', 'esm'],
-  dts: true,
+  dts: { resolve: true },
   splitting: false,
   sourcemap: true,
   clean: true,
   outDir: 'dist',
   treeshake: true,
+  external: ['@rig-foundation/semaphore'],
 });

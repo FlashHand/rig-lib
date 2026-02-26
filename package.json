@@ -1,37 +1,16 @@
 {
-  "name": "rig-foundation",
-  "version": "1.0.2",
-  "description": "A foundation utility library",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      },
-      "import": {
-        "types": "./dist/index.d.mts",
-        "default": "./dist/index.mjs"
-      }
-    }
-  },
-  "files": [
-    "dist"
+  "name": "rig-foundation-workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*"
   ],
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
-    "prepublishOnly": "yarn build",
-    "publish:npm": "npm publish --registry=https://registry.npmjs.org/"
+    "build": "yarn workspaces run build",
+    "dev": "yarn workspaces run dev"
   },
   "repository": "git@github.com:FlashHand/rig-foundation.git",
   "author": "WangBo <ralwayne@163.com>",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.3.0"
