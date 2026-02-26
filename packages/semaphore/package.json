@@ -1,6 +1,6 @@
 {
   "name": "@rig-foundation/semaphore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Semaphore for concurrency control",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
