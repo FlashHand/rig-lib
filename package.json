@@ -14,5 +14,14 @@
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.3.0"
-  }
+  },
+  "keywords": [
+    "semaphore",
+    "concurrency",
+    "concurrency-control",
+    "mutex",
+    "rate-limit",
+    "throttle",
+    "queue"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "@rig-lib/semaphore",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Semaphore for concurrency control",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -40,5 +40,20 @@
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.3.0"
-  }
+  },
+  "keywords": [
+    "semaphore",
+    "concurrency",
+    "concurrency-control",
+    "async",
+    "await",
+    "promise",
+    "mutex",
+    "lock",
+    "rate-limit",
+    "throttle",
+    "queue",
+    "parallel",
+    "typescript"
+  ]
 }
