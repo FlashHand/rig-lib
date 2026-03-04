@@ -16,8 +16,7 @@ yarn add @rig-lib/semaphore
 
 | Package | npm | Description |
 |---|---|---|
-| `rig-lib` | [![npm](https://img.shields.io/npm/v/rig-lib)](https://www.npmjs.com/package/rig-lib) | Meta package — re-exports all modules |
-| `@rig-lib/semaphore` | [![npm](https://img.shields.io/npm/v/@rig-lib/semaphore)](https://www.npmjs.com/package/@rig-lib/semaphore) | 信号量并发控制工具，支持 callback 和 async/await |
+| `@rig-lib/semaphore` | [![npm](https://img.shields.io/npm/v/@rig-lib/semaphore)](https://www.npmjs.com/package/@rig-lib/semaphore) | Semaphore concurrency control utility, supports both callback and async/await |
 
 ## Usage
 
