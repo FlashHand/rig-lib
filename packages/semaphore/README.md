@@ -5,13 +5,15 @@ A concurrency control utility based on [abrkn/semaphore.js](https://github.com/a
 ## Installation
 
 ```bash
-yarn add rig-foundation
+yarn add @rig-lib/semaphore
+# or
+npm install @rig-lib/semaphore
 ```
 
 ## Quick Start
 
 ```typescript
-import { Semaphore } from 'rig-foundation';
+import { Semaphore } from '@rig-lib/semaphore';
 
 // Create a semaphore with max concurrency of 3
 const sem = new Semaphore(3);

@@ -7,9 +7,13 @@ A foundation utility library for TypeScript, supporting both ESM and CommonJS.
 ```bash
 # Install all modules at once
 yarn add rig-lib
+# or
+npm install rig-lib
 
 # Or install individual modules
 yarn add @rig-lib/semaphore
+# or
+npm install @rig-lib/semaphore
 ```
 
 ## Packages
