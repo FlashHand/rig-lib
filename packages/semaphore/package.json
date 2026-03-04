@@ -21,6 +21,7 @@
     "dist"
   ],
   "scripts": {
+    "prebuild": "node ../../scripts/beforeBuild.js",
     "build": "tsup",
     "dev": "tsup --watch",
     "prepublishOnly": "yarn build",
