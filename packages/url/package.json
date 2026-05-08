@@ -1,7 +1,7 @@
 {
-  "name": "rig-lib",
-  "version": "1.0.15",
-  "description": "A foundation utility library",
+  "name": "@rig-lib/url",
+  "version": "1.0.0",
+  "description": "URL utilities",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -25,9 +25,6 @@
     "dev": "tsup --watch",
     "prepublishOnly": "yarn build",
     "publish:npm": "npm publish --registry=https://registry.npmjs.org/ --access public"
-  },
-  "dependencies": {
-    "@rig-lib/semaphore": "*"
   },
   "repository": {
     "type": "git",
